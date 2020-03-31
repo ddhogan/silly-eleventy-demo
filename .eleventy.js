@@ -3,6 +3,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({"_includes/img": "img"});
   eleventyConfig.addPassthroughCopy("css");
   return {
-    pathPrefix: "/silly-eleventy-demo"
+    pathPrefix: "/silly-eleventy-demo/"
   }
 };

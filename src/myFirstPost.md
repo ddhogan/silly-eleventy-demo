@@ -13,6 +13,6 @@ More things
 
 Look at this: <img src="../img/trobbyfunnyface_daycare.jpg" width="100"/>
 
-See the <a href="{{site.pathPrefix}}/tos/">Terms of Service</a>
+See the <a href="{{ '/tos' | url }}">Terms of Service</a>
 
-Return <a href="{{site.pathPrefix}}">Home</a>
+Return <a href="{{ '/'  | url }}">Home</a>
